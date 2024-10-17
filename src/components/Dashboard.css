@@ -1,0 +1,32 @@
+/* src/components/Dashboard.css */
+.dashboard {
+    padding: 20px;
+  }
+body{
+    background-color: rgb(146, 155, 152) !important;
+}
+  
+  .habit-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+  }
+  
+  .habit-card {
+    background-color: #f8f9fa; /* Light background */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    flex: 1 1 250px; /* Responsive card width */
+    min-width: 220px; /* Minimum width for the card */
+  }
+  
+  .habit-card h4 {
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  .habit-card p {
+    margin: 5px 0; /* Space between paragraphs */
+  }
+  
